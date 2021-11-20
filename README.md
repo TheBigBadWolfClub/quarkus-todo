@@ -66,7 +66,7 @@ DELETE http://localhost:8080/api/todos
 
 ## Running the application in dev mode
 
-You can run your application in dev mode that enables live coding using:
+To Run application in dev mode that enables live coding, execute:
 
 ```shell script
 ./mvnw compile quarkus:dev
@@ -97,13 +97,13 @@ The application, packaged as an _über-jar_, is now runnable using `java -jar ta
 
 ## Creating a native executable
 
-You can create a native executable using:
+To create a native executable, execute:
 
 ```shell script
 ./mvnw package -Pnative
 ```
 
-Or, if GraalVM not installed, you can run the native executable build in a container using:
+Or, if GraalVM not installed, to run the native executable build in a container, execute:
 
 ```shell script
 ./mvnw package -Pnative -Dquarkus.native.container-build=true
@@ -111,7 +111,7 @@ Or, if GraalVM not installed, you can run the native executable build in a conta
 
 Then it can be executed with native executable with: `./target/quarkus-todo-1.0.0-SNAPSHOT-runner`
 
-Learn more about building native executables, please consult https://quarkus.io/guides/maven-tooling.
+Learn more about building native executables, visit https://quarkus.io/guides/maven-tooling.
 
 ## Related Guides
 
